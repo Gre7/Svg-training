@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    height: 90px;
+    margin-top: 80px;
+    font-size: 36px;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    border: 1px solid black;
+}
+
+.btn_red {
+    width: 396px;
+    margin-left: 104px;
+    background: #FF2E2E;
+}
+
+.btn_brown {
+    width: 576px;
+    background: #DF6502;
+}
+
+.btn_purple {
+    width: 506px;
+    margin-left: 72px;
+    background: #B802DF;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.circle {
+    position: absolute;
+    height: 20%;
+    width: 20%;
+}
+
+.ellipse {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    top: 158px;
+    right: 0;
+}
+
+.art-block {
+    display: flex;
+    position: relative;
+}
+
+.top-art {
+    position: relative;
+    right: 44px;
+}
+
+.art-block__date-logo {
+    background: url(img/date-logo.png) no-repeat center;
+    width: 326px;
+    height: 268px;
+    position: absolute;
+    right: 264px;
+    top: -4px;
+}
+
+.circle_fourth {
+    float: right;
+    width: 50%;
+    height: 30%;
+    margin-right: 20px;
+}
+
+.art-block__text {
+    font-size: 36px;
+}
+
+.art-block__text_left {
+    transform: rotate(25deg);
+    position: relative;
+    top: -58px;
+}
+
+.date-logo__date-text {
+    padding-left: 105px;
+    font-size: 42px;
+    padding-top: 53px;
+}
+
+.art-block__text_right {
+    transform: rotate(-28deg);
+    position: relative;
+    top: -98px;
+    right: -128px;
+} 
+
+.logos {
+    display: grid;
+    margin-left: 96px;
+    position: absolute;
+    top: 670px;
+}
+
+.logo1 {
+    padding-bottom: 86px;
+}
+.logo2 {
+    padding-left: 18px;
+}
+
+.description {
+    width: 50%;
+    float: right;
+    background: #F30084;
+    height: 60vh;
+    margin-top: 116px;
+
+}
+
+.description-title {
+    padding: 26px 0 33px 33px;
+    font-size: 46px;
+}
+
+.description-text {
+    font-size: 38px;
+    line-height: 1.6em;
+    padding-left: 33px;
+}
+
+.ellipse_big {
+    position: relative;
+    top: 138px;
+    width: 40%;
+    height: 50vh;
+}
